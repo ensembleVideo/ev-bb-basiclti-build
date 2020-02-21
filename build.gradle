@@ -5,8 +5,8 @@ apply plugin: "eclipse"
 apply plugin: "idea"
 
 java {
-  sourceCompatibility = JavaVersion.VERSION_1_8
-  targetCompatibility = JavaVersion.VERSION_1_8
+  sourceCompatibility = JavaVersion.VERSION_1_7
+  targetCompatibility = JavaVersion.VERSION_1_7
 }
 
 // Uncomment if your project has an API JAR
@@ -17,7 +17,7 @@ group "org.oscelot.blackboard"
 version "3.3.9.1"
 
 ext {
-  learnVersion = "9.1.140152.0"
+  learnVersion = "9.1.201510.1171621"
   deployServer = "localhost:8000"
   deployInstance = "BBLEARN"
 }
